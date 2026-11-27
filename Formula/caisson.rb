@@ -1,8 +1,8 @@
 class Caisson < Formula
   desc "Daemon-shielded sibling APFS workspaces and CoW git worktrees for macOS"
   homepage "https://github.com/beckhq/caisson"
-  url "https://github.com/beckhq/caisson/releases/download/v0.1.0/caisson-v0.1.0-universal-apple-darwin.tar.gz"
-  sha256 "b3332aa1b82eb565d034c3d2873934e25a707d874e94ec0a50ce1b5b3ccda04d"
+  url "https://github.com/beckhq/caisson/releases/download/v0.1.1/caisson-v0.1.1-universal-apple-darwin.tar.gz"
+  sha256 "d791546d1066840c3d2e32bb8a454d6a61792314a662de96f40904c070bd9ad8"
   license "MIT"
 
   depends_on :macos
@@ -18,6 +18,9 @@ class Caisson < Formula
         caisson doctor
         sudo caisson init
         sudo caisson daemon install
+
+      Wire up your coding agents (Claude Code, Codex, Antigravity, Cursor, OpenCode, Windsurf):
+        caisson agent install
 
       Enable `caisson wt cd <slug>` in your shell (~/.zshrc):
         eval "$(caisson shell-init zsh --alias cai)"
