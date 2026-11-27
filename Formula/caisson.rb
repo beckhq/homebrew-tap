@@ -1,8 +1,8 @@
 class Caisson < Formula
   desc "Daemon-shielded sibling APFS workspaces and CoW git worktrees for macOS"
   homepage "https://github.com/beckhq/caisson"
-  url "https://github.com/beckhq/caisson/releases/download/v0.1.7/caisson-v0.1.7-universal-apple-darwin.tar.gz"
-  sha256 "66ccc4056d92ec63b8e3e505b980b51c27c89c4668c2a3da849c93c2f1733604"
+  url "https://github.com/beckhq/caisson/releases/download/v0.1.8/caisson-v0.1.8-universal-apple-darwin.tar.gz"
+  sha256 "919dd29a5a89861f718c79460654391e44c96076182c4e4a436fe61651596a2f"
   license "MIT"
 
   depends_on :macos
